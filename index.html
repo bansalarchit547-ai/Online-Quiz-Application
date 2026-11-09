@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three Question Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="quiz-container">
+
+    <h2>Online Quiz</h2>
+
+    <form id="quizForm">
+
+        <div class="question">
+            <p>1. What is the full form of HTML?</p>
+
+            <input type="radio" name="q1" value="a">
+            Hyper Text Markup Language<br>
+
+            <input type="radio" name="q1" value="b">
+            High Text Machine Language<br>
+
+            <input type="radio" name="q1" value="c">
+            Hyper Tool Markup Language
+        </div>
+
+        <div class="question">
+            <p>2. Which language is used for web styling?</p>
+
+            <input type="radio" name="q2" value="a">
+            Java<br>
+
+            <input type="radio" name="q2" value="b">
+            CSS<br>
+
+            <input type="radio" name="q2" value="c">
+            Python
+        </div>
+
+        <div class="question">
+            <p>3. Which language makes a webpage interactive?</p>
+
+            <input type="radio" name="q3" value="a">
+            HTML<br>
+
+            <input type="radio" name="q3" value="b">
+            CSS<br>
+
+            <input type="radio" name="q3" value="c">
+            JavaScript
+        </div>
+
+        <button type="button" onclick="checkAnswers()">
+            Submit Quiz
+        </button>
+
+    </form>
+
+    <div id="result"></div>
+
+</div>
+
+
+</body>
+</html>
